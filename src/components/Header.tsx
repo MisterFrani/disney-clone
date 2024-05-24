@@ -56,7 +56,7 @@ export default function Header() {
   return (
     <div
       className={`fixed top-0 px-4 p-4 z-50 w-full transition-all duration-500 ease-in-out ${
-        scrollPosition > 30 ? "bg-[#1a1e26]" : "bg-transparent"
+        scrollPosition > 82 ? "bg-[#1a1e26]" : "bg-transparent"
       } z-[1000] flex space-x-4 justify-between items-center`}
     >
       <nav className="flex items-center gap-6">
